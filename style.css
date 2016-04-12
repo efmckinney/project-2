@@ -113,6 +113,53 @@ height: 100%;
     margin-right:50%;
      } 
 
+/* CONTACT US FORM  */
+
+form { max-width:420px; margin:50px auto; }
+
+.feedback-input {
+  color:white;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight:500;
+  font-size: 18px;
+  border-radius: 5px;
+  line-height: 22px;
+  background-color: transparent;
+  border:2px solid #B0C4DE;
+  transition: all 0.3s;
+  padding: 13px;
+  margin-bottom: 15px;
+  width:100%;
+  box-sizing: border-box;
+  outline:0;
+}
+
+.feedback-input:focus { border:2px solid #0D4F8B; }
+
+textarea {
+  height: 150px;
+  line-height: 150%;
+  resize:vertical;
+}
+
+/* CONTACT US BUTTON */
+[type="submit"] {
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  width: 100%;
+  background:#B0C4DE;
+  border-radius:5px;
+  border:0;
+  cursor:pointer;
+  color:white;
+  font-size:24px;
+  padding-top:10px;
+  padding-bottom:10px;
+  transition: all 0.3s;
+  margin-top:-4px;
+  font-weight:700;
+}
+[type="submit"]:hover { background:#0D4F8B; }
+
 
 
 /*Tablet styles*/
@@ -137,7 +184,18 @@ height: 100%;
 		 font-size: 6.2em;
 	}
 
+  .specials-1 {
+    font-size: 5em;
+  }
 
+ /* .pages {
+    margin: 3em;
+    padding: 3em;
+  }
+
+  */
+
+/*
 .pair-container {
 	display: flex;
 
@@ -166,6 +224,7 @@ justify-content: space-around;
 
 }
 
+
 .section-description {
 	margin: 5%;
 	}
@@ -175,4 +234,75 @@ justify-content: space-around;
 }
 
 }
+*/
+
+
+.pair-container {
+  display: none;
+
+}
+
+.pair-container-two {
+  display: none;
+}
 	
+
+.tour-images-one {
+  display: flex;
+  justify-content: space-around;
+    height: 30em;
+}
+
+
+}
+
+.tour-images-two {
+  display: flex;
+  justify-content: space-around;
+    padding: 10%;
+    height: 30em;
+}
+
+
+.winter-tour {
+
+  border-radius: 50px;
+  /*margin: 2em;*/
+  padding: 2.5em;
+  height: 35em;
+
+
+}
+
+.crock-tour {
+
+  border-radius: 50px;
+  /*margin: 2em;*/
+  padding: 2.5em;
+  height: 35em;
+
+
+}
+
+.sip-tour {
+
+  border-radius: 50px;
+  /*margin: 2em;*/
+  padding: 2.5em;
+  height: 35em;
+
+
+}
+
+.holy-tour {
+
+  border-radius: 50px;
+  /*margin: 2em;*/
+  padding: 2.5em;
+  height: 35em;
+
+
+}
+
+
+
